@@ -1,0 +1,88 @@
+﻿@{
+    ViewBag.Title = "MyTestView";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>MyTestView</h2>
+
+<div class="container">
+    <div class="dropdown">
+        <button class="btn btn-primary dropdown-toggle btn-lg"
+                type="button" id="dropdownmenu1" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="True">
+            Favorite Hero
+            <span class="caret"></span>
+        </button>
+        <ul class="dropdown-menu">
+            <li class="dropdown-header">Marvel</li>
+            <li><a href="#">Spider Man</a></li>
+            <li><a href="#">Captain America</a></li>
+            <li><a href="#">Iron Man</a></li>
+            <li role="separator" class="divider"></li>
+
+            <li class="dropdown-header">DC</li>
+            <li class="disabled"><a href="#">Super Man</a></li>
+            <li><a href="#">Batman</a></li>
+            <li><a href="#">Flash</a></li>
+        </ul>
+    </div>
+
+</div>
+<br />
+<div class="container">
+
+    <div class="input-group input-group-lg">
+        <span class="input-group-addon">Your Name</span>
+        <input type="text" class="form-control" placeholder="Full Name" />
+
+
+    </div><br />
+
+    <div class="input-group input-group-sm">
+        <input type="text" class="form-control" placeholder="Full Name" />
+        <span class="input-group-btn">
+            <button class="btn btn-default">Enter</button>
+        </span>
+
+    </div><br />
+
+
+</div>
+
+<div class="container">
+
+    <div class="row">
+
+        <div class="input-group">
+            <div class="input-group-btn">
+                <button type="button" class="btn btn-default dropdown-toggle"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="True">
+                    User Id
+                    <span class="caret"></span>
+                </button>
+                <ul class="dropdown-menu">
+
+                    <li> <a href="#">Facebook</a></li>
+                    <li> <a href="#">Twitter</a></li>
+                    <li> <a href="#">Google+</a></li>
+
+                </ul>
+
+            </div>
+            <input type="text" class="form-control" aria-label="..." />
+        </div>
+
+    </div>
+
+</div>
+
+<div class="container">
+    <div class="row">
+        <div class="input-group">
+            <span class="input-group-addon">
+                <input type="checkbox"  aria-label="Enter..." />
+            </span>
+            <input type="text" class="form-control"/>
+        </div>
+    </div>
+</div>
