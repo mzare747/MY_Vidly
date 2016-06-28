@@ -10,6 +10,8 @@ namespace Vidly.Controllers
 {
     public class MoviesController : Controller
     {
+        // Now you see me ... MZARE_747
+
         public ViewResult Index()
         {
             var movies = GetMovies();
